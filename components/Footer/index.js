@@ -97,8 +97,8 @@ const Footer = ({ t }) => {
                     id="select-lang"
                   >
                     <option value="en">🇺🇲 English</option>
-                    <option value="es">Español</option>
-                    <option value="es">🇹🇿 Swahili</option>
+                    {/* <option value="es">Español</option> */}
+                    <option value="sw">🇹🇿 Swahili</option>
                   </S.LangSelect>
                 </S.Select>
               </Col>
@@ -115,12 +115,13 @@ const Footer = ({ t }) => {
             >
               <S.NavLink to="/">
                 <S.LogoContainer>
-                  <SvgIcon
+                  {/* <SvgIcon
                     src="logo.svg"
                     aria-label="homepage"
                     width="101px"
                     height="64px"
-                  />
+                  /> */}
+                  <img src="/img/logos/tdc.jpeg" alt="src" width={120} height={100} />
                 </S.LogoContainer>
               </S.NavLink>
               <S.FooterContainer>
@@ -136,14 +137,14 @@ const Footer = ({ t }) => {
                   href="https://www.linkedin.com/in/lasha-kakabadze/"
                   src="linkedin.svg"
                 />
-                <SocialLink
+                {/* <SocialLink
                   href="https://github.com/Adrinlol/"
                   src="instagram.svg"
-                />
-                <SocialLink
+                /> */}
+                {/* <SocialLink
                   href="https://medium.com/@lashakakabadze/"
                   src="medium.svg"
-                />
+                /> */}
               </S.FooterContainer>
             </Row>
           </Container>
