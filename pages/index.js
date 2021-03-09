@@ -1,6 +1,6 @@
 import { I18nextProvider } from "react-i18next";
 import "antd/dist/antd.css";
-import i18n from "./_translation";
+import i18n from "../locales/_translation";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
